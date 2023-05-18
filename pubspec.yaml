@@ -1,0 +1,24 @@
+name: flutter_authentication
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  csc_picker: ^0.2.7
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.1.1
+  riverpod_annotation: ^1.0.6
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  riverpod_generator: ^1.0.6
+
+flutter:
+  uses-material-design: true
